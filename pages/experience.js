@@ -41,7 +41,7 @@ export default function Experience() {
         <meta name="description" content="CAGATAV" />
         <link rel="icon" href="/icon-white.svg" />
     </Head>
-      <h1 className="text-3xl font-semibold text-center mb-8">My Experiences</h1>
+      <h1 className="text-3xl font-semibold text-center mb-8 text-[#903b3b]">My Experiences</h1>
       <Timeline experiences={experiences} />
     </div>
   );
