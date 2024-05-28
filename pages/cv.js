@@ -3,6 +3,11 @@ import Link from 'next/link';
 export default function CV() {
   return (
     <div className="container mx-auto p-4 ">
+      <Head>
+        <title>C A G A T A V - CV</title>
+        <meta name="description" content="CAGATAV" />
+        <link rel="icon" href="/icon-white.svg" />
+      </Head>
       <h1 className="text-4xl font-bold mb-10 text-center text-[#903b3b]">My CV</h1>
       <div className="mb-4 text-center">
         <Link href="/cv.pdf">
