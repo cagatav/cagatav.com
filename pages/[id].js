@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import projects from './projectsdata';
+import projects from '../data/projectsdata';
 
 export default function Project() {
   const router = useRouter();
