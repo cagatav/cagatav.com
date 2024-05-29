@@ -16,6 +16,7 @@ const Navbar = () => {
           className="flex items-center font-bold text-white opacity-100 hover:opacity-90 duration-200 select-none"
         >
           <Image src="/cagatav-colored.svg" alt="logo" width={175} height={175} />
+          <p className='text-black ml-1 pt-3'>.xyz</p>
         </a>
       </div>
       <ul className="hidden md:flex space-x-10 ml-auto">

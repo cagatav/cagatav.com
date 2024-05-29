@@ -22,7 +22,8 @@ export default function ProjectCard({ project }) {
         <img src={project.image} alt={project.name} className="w-full object-cover" />
         {isHovered && (
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <h2 className="text-white text-lg font-semibold">{project.name}</h2>
+            <h2 className="text-white text-lg font-semibold" >{project.name}</h2>
+            
           </div>
         )}
       </div>

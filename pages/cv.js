@@ -11,8 +11,8 @@ export default function CV() {
       </Head>
       <h1 className="text-3xl font-bold mb-10 text-center text-[#903b3b]">My CV</h1>
       <div className="mb-4 text-center">
-        <Link href="/cv.pdf">
-          <span className="bg-[#903b3b] text-white py-3 px-4 rounded hover:bg-[#6c2c2c] text-sm" target="_blank">Review CV (PDF)</span>
+        <Link href="https://s6.dosya.tc/en2.php?a=server20/pwac0c/CV.pdf&b=dfed725b982afbffa904f3d173be10f8&c=1716986499">
+          <span className="bg-[#903b3b] text-white py-3 px-4 rounded hover:bg-[#6c2c2c] text-sm" target="_blank">Download CV (PDF)</span>
         </Link>
       </div>
       <div className="flex justify-center">
