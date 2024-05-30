@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../components/ThemeContext';
 import { FiSun, FiMoon } from 'react-icons/fi';
 import { IoClose } from 'react-icons/io5';
 

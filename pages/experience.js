@@ -1,6 +1,6 @@
 import Timeline from '@/pages/timeline';
 import Head from 'next/head';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../components/ThemeContext';
 
 
 const experiences = [

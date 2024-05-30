@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../components/ThemeContext';
 
 export default function CV() {
   const { darkMode } = useTheme();

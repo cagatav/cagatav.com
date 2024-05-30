@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../components/ThemeContext';
 
 export default function Home() {
   const { darkMode } = useTheme();

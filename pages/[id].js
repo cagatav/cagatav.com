@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import projects from '../data/projectsdata';
 import Modal from './Modal';
-import { useTheme } from './ThemeContext';
+import { useTheme } from '../components/ThemeContext';
 
 export default function Project() {
   const router = useRouter();
