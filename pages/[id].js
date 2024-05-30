@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import projects from '../data/projectsdata';
-import Modal from './Modal'; // Adjust the import path if necessary
+import Modal from './Modal';
+import { useTheme } from './ThemeContext';
 
 export default function Project() {
   const router = useRouter();
   const { id } = router.query;
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
+  const { darkMode } = useTheme();
 
   if (!router.isReady) {
     return <div>Loading...</div>;
@@ -34,7 +36,7 @@ export default function Project() {
   };
 
   return (
-    <div className="container mx-auto p-4 text-center">
+    <div className={`min-h-screen container mx-auto p-4 text-center transition-all duration-300  ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <h1 className="text-3xl font-bold mb-4 text-[#903b3b] text-center">{project.name}</h1>
       <ul className="list-disc list-inside mb-5">
         {project.description.map((item, idx) => (

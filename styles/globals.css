@@ -5,25 +5,35 @@
 @font-face {
   font-family: 'poppins';
   src: url('Poppins-Regular.ttf');
-  }
+}
 
 body {
   font-family: 'poppins', sans-serif !important;
-  background: rgb(243 244 246);
-  }
+  background-color: var(--bg-color);
+}
+
+body.light-mode {
+  --bg-color: rgb(243 244 246);
+}
+
+body.dark-mode {
+  --bg-color: rgb(17 24 39);
+}
+
+
 .timeline {
     position: relative;
     padding: 20px 0;
-  }
-  
+}
+
 .timeline-item {
     position: relative;
     padding: 20px 0;
     padding-left: 40px;
     margin-left: 20px;
-    border-left: 2px solid #00000021;
-  }
-  
+    border-left: 2px;
+}
+
 .timeline-dot {
     position: absolute;
     left: -10px;
@@ -32,30 +42,30 @@ body {
     height: 20px;
     background-color: #6c2c2c;
     border-radius: 50%;
-  }
-  
+}
+
 .timeline-content {
     margin-left: 20px;
-  }
-  
+}
+
 .timeline-title {
     font-size: 1.25rem;
     font-weight: 600;
-  }
-  
+}
+
 .timeline-date {
     font-size: 0.875rem;
     color: #6b7280;
-  }
+}
+
 .icons{
   opacity: 100%;
-  border-color: #6c2c2c;
-
 }
+
 .icons:hover{
   opacity: 50%;
-  border-color: #6c2c2c;
 }
+
 @keyframes scaleIn {
   0% {
     transform: scale(0.9);
@@ -70,3 +80,8 @@ body {
 .scale-in {
   animation: scaleIn 0.3s ease-out forwards;
 }
+.transition-transform {
+  transition: transform 0.5s ease-in-out;
+}
+
+

@@ -17,7 +17,7 @@ export default function Modal({ isOpen, onClose, imageSrc }) {
       <div className="relative bg-white rounded-lg max-w-5xl mx-auto my-8 shadow-lg scale-in" onClick={handleModalClick}>
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-2xl transform transition duration-500 filter invert"
+          className="absolute top-2 right-2 text-2xl transform transition duration-500 !filter !invert"
           style={{ mixBlendMode: 'difference' }}
         >
           &times;

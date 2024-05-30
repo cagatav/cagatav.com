@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import { useTheme } from './ThemeContext';
 
 export default function CV() {
+  const { darkMode } = useTheme();
+
   return (
-    <div className="container mx-auto p-4 ">
+    <div className={`min-h-screen container mx-auto p-4 transition-all duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <Head>
         <title>C A G A T A V - CV</title>
         <meta name="description" content="CAGATAV" />
@@ -16,7 +19,7 @@ export default function CV() {
         </Link>
       </div>
       <div className="flex justify-center">
-        <img src="CV.png" alt="CV Page 1" className="w-full h-auto" />
+        <img src={darkMode ? 'CV-dark.png' : 'CV.png'} alt="CV" className="w-full h-auto" />
       </div>
     </div>
   );
