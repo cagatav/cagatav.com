@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div className={` min-h-screen min-w-fit px-30 container mx-auto p-4 transition-all duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <Head>
-        <title>C A G A T A V - CV</title>
+        <title>C A G A T A V - Projects</title>
         <meta name="description" content="CAGATAV" />
         <link rel="icon" href="/icon-white.svg" />
       </Head>
