@@ -40,9 +40,12 @@ export default function Project() {
       <h1 className="text-3xl font-bold mb-4 text-[#903b3b] text-center">{project.name}</h1>
       <ul className="list-disc list-inside mb-5">
         {project.description.map((item, idx) => (
-          <li key={idx}>{item}</li>
+          <li key={idx} dangerouslySetInnerHTML={{ __html: item }} />
         ))}
       </ul>
+      {project.iframe && (
+        <div className="mb-5" dangerouslySetInnerHTML={{ __html: project.iframe }} />
+      )}
       <p className="mb-5">
         {project.website ? (
           <a href={project.website} target="_blank" rel="noopener noreferrer" className="text-blue-500">
