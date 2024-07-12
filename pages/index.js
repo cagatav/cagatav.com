@@ -12,7 +12,7 @@ export default function index() {
           src="https://app.livechatai.com/embed.js"
           data-id="clxu16c2u000jllbl60jn2rmd"
           async defer>
-        </script> 
+        </script>
       </Head>
     <Home/>
     </div>

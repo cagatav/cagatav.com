@@ -12,10 +12,8 @@ export default function Home() {
           <span className="block px-2">A Computer Engineer</span>
         </h1>
         <p className="text-center mt-4 max-w-2xl px-6">
-          As a recent graduate in Computer Engineering, I aim to specialize in web 
-          development and artificial intelligence by leveraging my experiences in these 
-          fields. I am particularly interested in working with modern web technologies such 
-          as Next.js and React.js to develop innovative and user-friendly products.        </p>
+        As a recent graduate in Computer Engineering, I aim to specialize in test engineering by leveraging my experiences in this field. I am particularly interested in working with modern web technologies such as Next.js and React.js to develop innovative and user-friendly products, while also enhancing the efficiency of software testing processes.
+          </p>
         <div className="flex mt-8 space-x-6 ">
           <a href="https://www.linkedin.com/in/cagatav" className={`icons ${darkMode ? ' fill-white' : 'fill-black'}`}>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
