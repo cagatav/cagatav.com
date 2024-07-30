@@ -7,6 +7,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script src="https://cdn.popupsmart.com/bundle.js" data-id="875409" async defer></script>
       </body>
     </Html>
   );
