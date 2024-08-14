@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className={`${sidebarOpen ? 'hidden' : 'block'} flex-shrink-0`}>
         <a
           href="/"
-          className="flex items-center font-bold opacity-100 hover:opacity-90 duration-300 select-none"
+          className="flex items-center bold opacity-100 hover:opacity-90 duration-300 select-none"
         >
           <Image
             src={darkMode ? "/cagatav-white.svg" : "/cagatav-colored.svg"}
@@ -86,7 +86,7 @@ const Navbar = () => {
           </button>
           <a
             href="/"
-            className="flex items-center font-bold opacity-100 hover:opacity-90 duration-300 select-none mb-8"
+            className="flex items-center bold opacity-100 hover:opacity-90 duration-300 select-none mb-8"
           >
             <div className='flex mb-10'>
               <Image

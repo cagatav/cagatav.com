@@ -37,7 +37,7 @@ export default function Project() {
 
   return (
     <div className={`min-h-screen container mx-auto p-4 text-center transition-all duration-300  ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
-      <h1 className="text-3xl font-bold mb-4 text-[#903b3b] text-center">{project.name}</h1>
+      <h1 className="text-3xl bold mb-4 text-[#903b3b] text-center">{project.name}</h1>
       <ul className="list-disc list-inside mb-5">
         {project.description.map((item, idx) => (
           <li key={idx} dangerouslySetInnerHTML={{ __html: item }} />
