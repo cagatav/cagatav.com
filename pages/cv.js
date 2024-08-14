@@ -75,7 +75,7 @@ export default function CV() {
               </ul>
             </div>
             <div className="mb-6">
-              <h4 className="text-lg bold">Mobile Application Developer Intern, Betyape Bilişim</h4>
+              <h4 className="text-lg bold">Mobile Application Developer Intern, Beytepe Bilişim</h4>
               <p className="timeline-date">Remote, April 2023 - August 2023 (5 Months)</p>
               <ul className="list-disc list-inside mt-2">
                 <li>Developed a hotel application using Android Studio and Java programming language.</li>
