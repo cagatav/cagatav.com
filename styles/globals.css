@@ -6,9 +6,16 @@
   font-family: 'poppins';
   src: url('Poppins-Regular.ttf');
 }
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('Poppins-Bold.ttf');
+}
 
+.bold {
+  font-family: 'poppins-bold';
+}
 body {
-  font-family: 'poppins', sans-serif !important;
+  font-family: 'poppins', sans-serif;
   background-color: var(--bg-color);
 }
 
@@ -83,5 +90,6 @@ body.dark-mode {
 .transition-transform {
   transition: transform 0.5s ease-in-out;
 }
+
 
 
