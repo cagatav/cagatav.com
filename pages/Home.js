@@ -8,7 +8,7 @@ export default function Home() {
     <div className={`min-h-screen flex flex-col justify-center items-center transition-all duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <main className="flex flex-col justify-center items-center">
         <h1 className="text-4xl md:text-6xl text-center">
-          <span className="block my-5 px-2">Hi, I'm <span className="text-[#903b3b]">Çağatay</span>!</span>
+          <span className="block my-5 px-2">Hi, I'm <span className="text-[#903b3b]">Çağatay</span></span>
           <span className="block px-2">A Computer Engineer</span>
         </h1>
         <p className="text-center mt-4 max-w-2xl px-6"> As a new graduate <span className="bold">Computer Engineer</span>, I have gained experience in web and mobile development. I am interested in <span className='bold'>artificial intelligence</span> and have had opportunities to work in this field. As an entry-level web developer, I aim to leverage my experience in <span className="bold"> manual testing</span> and  <span className='bold'>test automation</span> to develop my skills in <span className='bold'>QA engineer</span> further. I am also open to gaining experience in new areas. I am committed to using my problem-solving abilities, innovative mindset, and analytical thinking to work in a dynamic and technology-forward company.</p>
