@@ -6,7 +6,6 @@ export default function index() {
     <div>
       <Head>
         <title>C A G A T A V</title>
-        <meta name="description" content="CAGATAV" />
         <link rel="icon" href="/icon-white.svg" />
         <script
           src="https://app.livechatai.com/embed.js"

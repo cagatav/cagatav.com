@@ -45,7 +45,6 @@ export default function Experience() {
     <div className={`min-h-screen min-w-fit container mx-auto p-4 transition-all duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <Head>
         <title>C A G A T A V - Experience</title>
-        <meta name="description" content="CAGATAV" />
         <link rel="icon" href="/icon-white.svg" />
       </Head>
       <h1 className="text-3xl bold text-center mb-8 text-[#903b3b]">My Experiences</h1>
