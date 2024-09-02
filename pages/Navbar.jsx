@@ -44,7 +44,11 @@ const Navbar = () => {
           />
           <div className="grid">
             <p className="ml-1 text-xs">.xyz</p>
-            <p className="ml-1 text-xs">.com</p>
+
+          </div>
+          <div className="flex items-center ml-10 border-2 border-[#903b3b] rounded-md p-1 ">
+            <span className="w-3 h-3 rounded-full bg-[#903b3b] mr-2"></span>
+            <span className={`text-sm font-semibold ${darkMode ? 'text-white' : 'text-black'}`}>TEST MODE</span>
           </div>
         </a>
       </div>
@@ -97,10 +101,14 @@ const Navbar = () => {
               />
               <div className="grid">
                 <p className="ml-1 text-xs">.xyz</p>
-                <p className="ml-1 text-xs">.com</p>
               </div>
             </div>
           </a>
+          <div className="flex items-center ml-4 border-2 border-[#903b3b] rounded-md p-1 ">
+            <span className="w-3 h-3 rounded-full bg-[#903b3b] mr-2"></span>
+            <span className={`text-sm font-semibold ${darkMode ? 'text-white' : 'text-black'}`}>TEST MODE</span>
+          </div>
+
           <div className={`grid text-center space-y-8 ${darkMode ? 'text-white' : 'text-black'}`}>
             <a href="/" className="text-2xl hover:text-[#903b3b]">HOME</a>
             <a href="/experience" className="text-2xl hover:text-[#903b3b]">EXPERIENCE</a>
