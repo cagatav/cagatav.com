@@ -1,5 +1,7 @@
 import React from 'react';
 import { useTheme } from '../components/ThemeContext';
+import Image from 'next/image';
+
 
 export default function Home() {
   const { darkMode } = useTheme();
@@ -7,7 +9,17 @@ export default function Home() {
   return (
     <div className={`min-h-screen flex flex-col justify-center items-center transition-all duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <main className="flex flex-col justify-center items-center">
+      <div className="w-66 h-66 rounded-full flex items-center justify-center overflow-hidden">
+      <Image
+        src="/pp.png"
+        alt="Profile-Photo"
+        className="object-cover"
+        width={250}
+        height={250}
+      />
+      </div>
         <h1 className="text-4xl md:text-6xl text-center">
+
           <span className="block my-5 px-2">Hi, I'm <span className="text-[#903b3b]">Çağatay</span>!</span>
           <span className="block px-2">A Computer Engineer</span>
         </h1>

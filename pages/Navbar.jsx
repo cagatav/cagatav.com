@@ -43,7 +43,6 @@ const Navbar = () => {
             height={175}
           />
           <div className="grid">
-            <p className="ml-1 text-xs">.xyz</p>
             <p className="ml-1 text-xs">.com</p>
           </div>
         </a>
@@ -96,7 +95,6 @@ const Navbar = () => {
                 height={175}
               />
               <div className="grid">
-                <p className="ml-1 text-xs">.xyz</p>
                 <p className="ml-1 text-xs">.com</p>
               </div>
             </div>

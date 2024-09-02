@@ -6,7 +6,7 @@ export default function index() {
     <div>
       <Head>
         <title>C A G A T A V</title>
-        <meta name="description" content="CAGATAV" />
+        <meta name="Enes Çağatay SÖZEN Portfolio Website" content="CAGATAV" />
         <link rel="icon" href="/icon-white.svg" />
         <script
           src="https://app.livechatai.com/embed.js"
