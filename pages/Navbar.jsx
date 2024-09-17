@@ -58,7 +58,7 @@ const Navbar = () => {
           <a href="/projects">PROJECTS</a>
         </li>
         <li className="hover:text-[#903b3b] transition-colors duration-300">
-          <a href="/cv">CV</a>
+          <a href="/cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv-cv">CV</a>
         </li>
       </ul>
       <div className="flex items-center space-x-4">
