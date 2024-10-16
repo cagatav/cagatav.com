@@ -58,7 +58,7 @@ const Navbar = () => {
           <a href="/projects">PROJECTS</a>
         </li>
         <li className="hover:text-[#903b3b] transition-colors duration-300">
-          <a href="/cv">CV</a>
+          <a href="/resume">RESUME</a>
         </li>
       </ul>
       <div className="flex items-center space-x-4">
@@ -103,7 +103,7 @@ const Navbar = () => {
             <a href="/" className="text-2xl hover:text-[#903b3b]">HOME</a>
             <a href="/experience" className="text-2xl hover:text-[#903b3b]">EXPERIENCE</a>
             <a href="/projects" className="text-2xl hover:text-[#903b3b]">PROJECTS</a>
-            <a href="/cv" className="text-2xl hover:text-[#903b3b]">CV</a>
+            <a href="/resume" className="text-2xl hover:text-[#903b3b]">RESUME</a>
           </div>
         </div>
       </div>

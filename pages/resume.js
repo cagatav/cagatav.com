@@ -1,19 +1,19 @@
 import Head from 'next/head';
 import { useTheme } from '../components/ThemeContext';
 
-export default function CV() {
+export default function Resume() {
   const { darkMode } = useTheme();
 
   return (
     <div className={`min-h-screen container mx-auto p-4 transition-all duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <Head>
-        <title>Enes Çağatay Sözen - CV</title>
-        <meta name="description" content="Enes Çağatay Sözen's CV" />
+        <title>Enes Çağatay Sözen - Resume</title>
+        <meta name="description" content="Enes Çağatay Sözen's Resume" />
         <link rel="icon" href="/icon-white.svg" />
       </Head>
-      <h1 className="text-3xl bold mb-7 text-center text-[#903b3b]">My CV</h1>
+      <h1 className="text-3xl bold mb-7 text-center text-[#903b3b]">My Resume</h1>
       <div className="mb-4 text-center">
-        <a download href="/EnesCagataySOZEN-CV.pdf" className="bg-[#903b3b] text-white py-3 px-10 rounded hover:bg-[#6c2c2c] text-sm">Download CV (PDF)</a>
+        <a download href="/EnesCagataySOZEN-CV.pdf" className="bg-[#903b3b] text-white py-3 px-10 rounded hover:bg-[#6c2c2c] text-sm">Download Resume (PDF)</a>
       </div>
       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between mt-10">
         <div className="flex flex-col items-center lg:w-1/3">
