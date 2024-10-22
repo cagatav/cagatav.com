@@ -3,11 +3,12 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <script src="https://cdn.popupsmart.xyz/bundle.js" data-id="419642" async defer></script>      
+      </Head>
       <body>
         <Main />
         <NextScript />
-        <script src="https://cdn.popupsmart.com/bundle.js" data-id="875409" async defer></script>
       </body>
     </Html>
   );
