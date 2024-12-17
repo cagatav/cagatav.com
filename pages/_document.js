@@ -4,7 +4,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script src="https://cdn.popupsmart.xyz/bundle.js" data-id="419642" async defer></script>      
+        <script
+          src="https://app.livechatai.com/embed.js"
+          data-id="clxu16c2u000jllbl60jn2rmd"
+          async defer>
+        </script>
       </Head>
       <body>
         <Main />
