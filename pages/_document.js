@@ -4,7 +4,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <script src="https://cdn.popupsmart.xyz/bundle.js" data-id="419642" async defer></script>
+        <script
+          src="https://live-chat-ai-web-git-feature-sc-14728adding-i-b3c896-popupsmart.vercel.app/embed.js"
+          data-id="cm4miw4hw0001mh0aeubmt57h"
+          async defer>
+        </script>
       </Head>
       <body>
         <Main />
