@@ -5,10 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <script
-        src="https://app-dev.livechatai.com/embed.js"
-        data-id="cm4sbdyb00001jo0brcxqgtqy"
-        async defer>
-      </script>
+  src="https://app-dev.livechatai.com/embed.js"
+  data-id="cm3mrc0ya00019bldu94uxx26"
+  async defer>
+</script>
       </Head>
       <body>
         <Main />
