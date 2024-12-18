@@ -4,11 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <script
-  src="https://app-dev.livechatai.com/embed.js"
-  data-id="cm3mrc0ya00019bldu94uxx26"
-  async defer>
-</script>
       </Head>
       <body>
         <Main />
