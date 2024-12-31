@@ -5,10 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <script
-    src="https://live-chat-ai-web-git-feature-sc-14743directin-9e6daf-popupsmart.vercel.app/embed.js"
-    data-id="cm4sbdyb00001jo0brcxqgtqy"
-    async defer>
-  </script>
+        src="https://app-dev.livechatai.com/embed.js"
+        data-id="cm4sbdyb00001jo0brcxqgtqy"
+        async defer>
+      </script>
       </Head>
       <body>
         <Main />
